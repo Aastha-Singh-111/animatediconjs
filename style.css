@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+}
+#parent{
+    background-color: rgb(102, 37, 37);
+  position: absolute;
+  width: 40vw; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.heading{
+    color: azure;
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size:70px;
+  
+}
+span{
+    font-size: 100px;
+}
